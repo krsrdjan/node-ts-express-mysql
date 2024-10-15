@@ -10,16 +10,17 @@ POC backend application using Node, TypeScript, Express and MySql over Docker
 - Express
 - MySql
 - Docker
+- Docker Compose
 
 ## Requirements
 - Node
 - Docker
+- Docker Compose
 
 ## Installation
 - Clone this repository
 - Run `npm install`
-- Run `docker-compose up`
-- Run `npm run dev`
+- Run `docker-compose up -d`
+- Run `npm start`
 - Open `http://localhost:3000/` in your browser
 - Enjoy!
-- To stop the application, run `docker-compose down`
